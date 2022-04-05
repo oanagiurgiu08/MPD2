@@ -4,5 +4,10 @@
 </script>
 <body>
   Bine ai venit la laborator.
-  Aici este butonul <button onclick="alertCookie()">Show cookies</button>
+<button onclick="alertCookie()">Show cookies</button>
+<button onclick="clearOutputCookies()">Clear</button>
+
+<div>
+  <code id="cookies"></code>
+</div>
 </body>
